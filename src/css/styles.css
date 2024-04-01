@@ -1,0 +1,28 @@
+:root{
+    --hr:#AA7AEE ;
+    --pared:#EFF1F9  ;
+}
+body{
+    background-color: var(--pared) ;
+}
+h1{
+    font-size: 35px;
+}
+main{
+    margin-top: 190px;
+}
+.contenedor-logos{
+    border-bottom: 10px solid var(--hr);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: var(--pared);
+}
+.contenedor-logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 20vh;
+    margin-right: 20px;
+}
