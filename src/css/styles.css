@@ -26,3 +26,26 @@ main{
     width: 20vh;
     margin-right: 20px;
 }
+.texto-basica{
+    position: sticky;
+    width: 8%;
+    top: 15%;
+    background-color: var(--pared);
+}
+.texto-avanzada{
+    position: sticky;
+    width: 10%;
+    top: 15%;
+    background-color:var(--pared);
+}
+.etapa-basica{
+    display: flex;
+    width: 60vh;
+}
+.programas{
+    display: flex;
+    align-items: center;
+}
+.iconos{
+    width: 10vh;
+}
